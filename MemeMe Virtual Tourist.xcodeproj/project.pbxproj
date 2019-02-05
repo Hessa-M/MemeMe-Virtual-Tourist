@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EF2FE12209F15300A2B6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE02209F15300A2B6BF /* AppDelegate.swift */; };
+		75EF2FE32209F15300A2B6BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE22209F15300A2B6BF /* ViewController.swift */; };
+		75EF2FE62209F15300A2B6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FE42209F15300A2B6BF /* Main.storyboard */; };
+		75EF2FE92209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */; };
+		75EF2FEB2209F15500A2B6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FEA2209F15500A2B6BF /* Assets.xcassets */; };
+		75EF2FEE2209F15500A2B6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FEC2209F15500A2B6BF /* LaunchScreen.storyboard */; };
+		75EF2FF92209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FF82209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift */; };
+		75EF30042209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30032209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75EF2FF52209F15500A2B6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EF2FD52209F15300A2B6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EF2FDC2209F15300A2B6BF;
+			remoteInfo = "MemeMe Virtual Tourist";
+		};
+		75EF30002209F15500A2B6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EF2FD52209F15300A2B6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EF2FDC2209F15300A2B6BF;
+			remoteInfo = "MemeMe Virtual Tourist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75EF2FDD2209F15300A2B6BF /* MemeMe Virtual Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe Virtual Tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EF2FE02209F15300A2B6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75EF2FE22209F15300A2B6BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75EF2FE52209F15300A2B6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75EF2FE82209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemeMe_Virtual_Tourist.xcdatamodel; sourceTree = "<group>"; };
+		75EF2FEA2209F15500A2B6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75EF2FED2209F15500A2B6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75EF2FEF2209F15500A2B6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EF2FF42209F15500A2B6BF /* MemeMe Virtual TouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe Virtual TouristTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EF2FF82209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_Virtual_TouristTests.swift; sourceTree = "<group>"; };
+		75EF2FFA2209F15500A2B6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EF2FFF2209F15500A2B6BF /* MemeMe Virtual TouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe Virtual TouristUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EF30032209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_Virtual_TouristUITests.swift; sourceTree = "<group>"; };
+		75EF30052209F15500A2B6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EF2FDA2209F15300A2B6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FF12209F15500A2B6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FFC2209F15500A2B6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EF2FD42209F15300A2B6BF = {
+			isa = PBXGroup;
+			children = (
+				75EF2FDF2209F15300A2B6BF /* MemeMe Virtual Tourist */,
+				75EF2FF72209F15500A2B6BF /* MemeMe Virtual TouristTests */,
+				75EF30022209F15500A2B6BF /* MemeMe Virtual TouristUITests */,
+				75EF2FDE2209F15300A2B6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EF2FDE2209F15300A2B6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EF2FDD2209F15300A2B6BF /* MemeMe Virtual Tourist.app */,
+				75EF2FF42209F15500A2B6BF /* MemeMe Virtual TouristTests.xctest */,
+				75EF2FFF2209F15500A2B6BF /* MemeMe Virtual TouristUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75EF2FDF2209F15300A2B6BF /* MemeMe Virtual Tourist */ = {
+			isa = PBXGroup;
+			children = (
+				75EF2FE02209F15300A2B6BF /* AppDelegate.swift */,
+				75EF2FE22209F15300A2B6BF /* ViewController.swift */,
+				75EF2FE42209F15300A2B6BF /* Main.storyboard */,
+				75EF2FEA2209F15500A2B6BF /* Assets.xcassets */,
+				75EF2FEC2209F15500A2B6BF /* LaunchScreen.storyboard */,
+				75EF2FEF2209F15500A2B6BF /* Info.plist */,
+				75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */,
+			);
+			path = "MemeMe Virtual Tourist";
+			sourceTree = "<group>";
+		};
+		75EF2FF72209F15500A2B6BF /* MemeMe Virtual TouristTests */ = {
+			isa = PBXGroup;
+			children = (
+				75EF2FF82209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift */,
+				75EF2FFA2209F15500A2B6BF /* Info.plist */,
+			);
+			path = "MemeMe Virtual TouristTests";
+			sourceTree = "<group>";
+		};
+		75EF30022209F15500A2B6BF /* MemeMe Virtual TouristUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75EF30032209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift */,
+				75EF30052209F15500A2B6BF /* Info.plist */,
+			);
+			path = "MemeMe Virtual TouristUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EF2FDC2209F15300A2B6BF /* MemeMe Virtual Tourist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EF30082209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual Tourist" */;
+			buildPhases = (
+				75EF2FD92209F15300A2B6BF /* Sources */,
+				75EF2FDA2209F15300A2B6BF /* Frameworks */,
+				75EF2FDB2209F15300A2B6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemeMe Virtual Tourist";
+			productName = "MemeMe Virtual Tourist";
+			productReference = 75EF2FDD2209F15300A2B6BF /* MemeMe Virtual Tourist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75EF2FF32209F15500A2B6BF /* MemeMe Virtual TouristTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EF300B2209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual TouristTests" */;
+			buildPhases = (
+				75EF2FF02209F15500A2B6BF /* Sources */,
+				75EF2FF12209F15500A2B6BF /* Frameworks */,
+				75EF2FF22209F15500A2B6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EF2FF62209F15500A2B6BF /* PBXTargetDependency */,
+			);
+			name = "MemeMe Virtual TouristTests";
+			productName = "MemeMe Virtual TouristTests";
+			productReference = 75EF2FF42209F15500A2B6BF /* MemeMe Virtual TouristTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75EF2FFE2209F15500A2B6BF /* MemeMe Virtual TouristUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EF300E2209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual TouristUITests" */;
+			buildPhases = (
+				75EF2FFB2209F15500A2B6BF /* Sources */,
+				75EF2FFC2209F15500A2B6BF /* Frameworks */,
+				75EF2FFD2209F15500A2B6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EF30012209F15500A2B6BF /* PBXTargetDependency */,
+			);
+			name = "MemeMe Virtual TouristUITests";
+			productName = "MemeMe Virtual TouristUITests";
+			productReference = 75EF2FFF2209F15500A2B6BF /* MemeMe Virtual TouristUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EF2FD52209F15300A2B6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hessa Mohamed";
+				TargetAttributes = {
+					75EF2FDC2209F15300A2B6BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75EF2FF32209F15500A2B6BF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75EF2FDC2209F15300A2B6BF;
+					};
+					75EF2FFE2209F15500A2B6BF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75EF2FDC2209F15300A2B6BF;
+					};
+				};
+			};
+			buildConfigurationList = 75EF2FD82209F15300A2B6BF /* Build configuration list for PBXProject "MemeMe Virtual Tourist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75EF2FD42209F15300A2B6BF;
+			productRefGroup = 75EF2FDE2209F15300A2B6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EF2FDC2209F15300A2B6BF /* MemeMe Virtual Tourist */,
+				75EF2FF32209F15500A2B6BF /* MemeMe Virtual TouristTests */,
+				75EF2FFE2209F15500A2B6BF /* MemeMe Virtual TouristUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75EF2FDB2209F15300A2B6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF2FEE2209F15500A2B6BF /* LaunchScreen.storyboard in Resources */,
+				75EF2FEB2209F15500A2B6BF /* Assets.xcassets in Resources */,
+				75EF2FE62209F15300A2B6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FF22209F15500A2B6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FFD2209F15500A2B6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EF2FD92209F15300A2B6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF2FE92209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld in Sources */,
+				75EF2FE32209F15300A2B6BF /* ViewController.swift in Sources */,
+				75EF2FE12209F15300A2B6BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FF02209F15500A2B6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF2FF92209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EF2FFB2209F15500A2B6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EF30042209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EF2FF62209F15500A2B6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EF2FDC2209F15300A2B6BF /* MemeMe Virtual Tourist */;
+			targetProxy = 75EF2FF52209F15500A2B6BF /* PBXContainerItemProxy */;
+		};
+		75EF30012209F15500A2B6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EF2FDC2209F15300A2B6BF /* MemeMe Virtual Tourist */;
+			targetProxy = 75EF30002209F15500A2B6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75EF2FE42209F15300A2B6BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EF2FE52209F15300A2B6BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75EF2FEC2209F15500A2B6BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EF2FED2209F15500A2B6BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75EF30062209F15500A2B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75EF30072209F15500A2B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75EF30092209F15500A2B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual Tourist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-Tourist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75EF300A2209F15500A2B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual Tourist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-Tourist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75EF300C2209F15500A2B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual TouristTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-TouristTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe Virtual Tourist.app/MemeMe Virtual Tourist";
+			};
+			name = Debug;
+		};
+		75EF300D2209F15500A2B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual TouristTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-TouristTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe Virtual Tourist.app/MemeMe Virtual Tourist";
+			};
+			name = Release;
+		};
+		75EF300F2209F15500A2B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual TouristUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-TouristUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MemeMe Virtual Tourist";
+			};
+			name = Debug;
+		};
+		75EF30102209F15500A2B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MemeMe Virtual TouristUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hessa.AlMuhanna.MemeMe-Virtual-TouristUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MemeMe Virtual Tourist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EF2FD82209F15300A2B6BF /* Build configuration list for PBXProject "MemeMe Virtual Tourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EF30062209F15500A2B6BF /* Debug */,
+				75EF30072209F15500A2B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EF30082209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual Tourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EF30092209F15500A2B6BF /* Debug */,
+				75EF300A2209F15500A2B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EF300B2209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual TouristTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EF300C2209F15500A2B6BF /* Debug */,
+				75EF300D2209F15500A2B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EF300E2209F15500A2B6BF /* Build configuration list for PBXNativeTarget "MemeMe Virtual TouristUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EF300F2209F15500A2B6BF /* Debug */,
+				75EF30102209F15500A2B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75EF2FE82209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodel */,
+			);
+			currentVersion = 75EF2FE82209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodel */;
+			path = MemeMe_Virtual_Tourist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75EF2FD52209F15300A2B6BF /* Project object */;
+}
