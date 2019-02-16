@@ -16,4 +16,3 @@ The app has three view controller:
 - Mac os
 - Xcode 10
 - Swift 4
-# MemeMe-Virtual-Tourist
