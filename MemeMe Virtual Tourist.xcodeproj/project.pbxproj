@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		75EF2FE12209F15300A2B6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE02209F15300A2B6BF /* AppDelegate.swift */; };
-		75EF2FE32209F15300A2B6BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE22209F15300A2B6BF /* ViewController.swift */; };
+		75EF2FE32209F15300A2B6BF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE22209F15300A2B6BF /* MapViewController.swift */; };
 		75EF2FE62209F15300A2B6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FE42209F15300A2B6BF /* Main.storyboard */; };
 		75EF2FE92209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */; };
 		75EF2FEB2209F15500A2B6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FEA2209F15500A2B6BF /* Assets.xcassets */; };
 		75EF2FEE2209F15500A2B6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EF2FEC2209F15500A2B6BF /* LaunchScreen.storyboard */; };
 		75EF2FF92209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF2FF82209F15500A2B6BF /* MemeMe_Virtual_TouristTests.swift */; };
 		75EF30042209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30032209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift */; };
+		75EF30162209F2C800A2B6BF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30152209F2C800A2B6BF /* DataController.swift */; };
+		75EF30182209F2ED00A2B6BF /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30172209F2ED00A2B6BF /* PhotoModel.swift */; };
+		75EF301A2209F30800A2B6BF /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30192209F30800A2B6BF /* FlickrAPI.swift */; };
+		75EF301C2209F32A00A2B6BF /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF301B2209F32A00A2B6BF /* PhotoCollectionCell.swift */; };
+		75EF301E2209F35900A2B6BF /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF301D2209F35900A2B6BF /* PhotoViewController.swift */; };
+		75EF30202209F60F00A2B6BF /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF301F2209F60F00A2B6BF /* MemeEditorViewController.swift */; };
+		75EF30222209F66100A2B6BF /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF30212209F66100A2B6BF /* MemeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		75EF2FDD2209F15300A2B6BF /* MemeMe Virtual Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe Virtual Tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EF2FE02209F15300A2B6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75EF2FE22209F15300A2B6BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75EF2FE22209F15300A2B6BF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		75EF2FE52209F15300A2B6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75EF2FE82209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemeMe_Virtual_Tourist.xcdatamodel; sourceTree = "<group>"; };
 		75EF2FEA2209F15500A2B6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		75EF2FFF2209F15500A2B6BF /* MemeMe Virtual TouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe Virtual TouristUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EF30032209F15500A2B6BF /* MemeMe_Virtual_TouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_Virtual_TouristUITests.swift; sourceTree = "<group>"; };
 		75EF30052209F15500A2B6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EF30152209F2C800A2B6BF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		75EF30172209F2ED00A2B6BF /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		75EF30192209F30800A2B6BF /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		75EF301B2209F32A00A2B6BF /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		75EF301D2209F35900A2B6BF /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		75EF301F2209F60F00A2B6BF /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
+		75EF30212209F66100A2B6BF /* MemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,15 @@
 		75EF2FDF2209F15300A2B6BF /* MemeMe Virtual Tourist */ = {
 			isa = PBXGroup;
 			children = (
+				75EF30142209F29D00A2B6BF /* ViewController */,
+				75EF30132209F29300A2B6BF /* Model */,
+				75EF30122209F28900A2B6BF /* View */,
+				75EF30112209F27200A2B6BF /* API */,
 				75EF2FE02209F15300A2B6BF /* AppDelegate.swift */,
-				75EF2FE22209F15300A2B6BF /* ViewController.swift */,
 				75EF2FE42209F15300A2B6BF /* Main.storyboard */,
 				75EF2FEA2209F15500A2B6BF /* Assets.xcassets */,
 				75EF2FEC2209F15500A2B6BF /* LaunchScreen.storyboard */,
 				75EF2FEF2209F15500A2B6BF /* Info.plist */,
-				75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */,
 			);
 			path = "MemeMe Virtual Tourist";
 			sourceTree = "<group>";
@@ -126,6 +142,43 @@
 				75EF30052209F15500A2B6BF /* Info.plist */,
 			);
 			path = "MemeMe Virtual TouristUITests";
+			sourceTree = "<group>";
+		};
+		75EF30112209F27200A2B6BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				75EF30192209F30800A2B6BF /* FlickrAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		75EF30122209F28900A2B6BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75EF301B2209F32A00A2B6BF /* PhotoCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75EF30132209F29300A2B6BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75EF2FE72209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld */,
+				75EF30152209F2C800A2B6BF /* DataController.swift */,
+				75EF30172209F2ED00A2B6BF /* PhotoModel.swift */,
+				75EF30212209F66100A2B6BF /* MemeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75EF30142209F29D00A2B6BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75EF2FE22209F15300A2B6BF /* MapViewController.swift */,
+				75EF301D2209F35900A2B6BF /* PhotoViewController.swift */,
+				75EF301F2209F60F00A2B6BF /* MemeEditorViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EF2FE92209F15300A2B6BF /* MemeMe_Virtual_Tourist.xcdatamodeld in Sources */,
-				75EF2FE32209F15300A2B6BF /* ViewController.swift in Sources */,
+				75EF30162209F2C800A2B6BF /* DataController.swift in Sources */,
+				75EF2FE32209F15300A2B6BF /* MapViewController.swift in Sources */,
+				75EF301A2209F30800A2B6BF /* FlickrAPI.swift in Sources */,
+				75EF30182209F2ED00A2B6BF /* PhotoModel.swift in Sources */,
+				75EF30202209F60F00A2B6BF /* MemeEditorViewController.swift in Sources */,
+				75EF301E2209F35900A2B6BF /* PhotoViewController.swift in Sources */,
 				75EF2FE12209F15300A2B6BF /* AppDelegate.swift in Sources */,
+				75EF301C2209F32A00A2B6BF /* PhotoCollectionCell.swift in Sources */,
+				75EF30222209F66100A2B6BF /* MemeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V522YN2PPQ;
 				INFOPLIST_FILE = "MemeMe Virtual Tourist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V522YN2PPQ;
 				INFOPLIST_FILE = "MemeMe Virtual Tourist/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
